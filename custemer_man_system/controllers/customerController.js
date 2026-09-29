@@ -1,6 +1,6 @@
 const Customer = require("../models/customerModel");
 
-// POST /customers
+
 const createCustomer = async (req, res) => {
   try {
     const { name, email } = req.body;
@@ -39,7 +39,7 @@ const createCustomer = async (req, res) => {
   }
 };
 
-// GET /customers
+
 const getCustomers = async (req, res) => {
   try {
     const customers = await Customer.find();
@@ -57,7 +57,7 @@ const getCustomers = async (req, res) => {
   }
 };
 
-// GET /customers/:id
+
 const getCustomerById = async (req, res) => {
   try {
     const customer = await Customer.findById(req.params.id);
@@ -118,7 +118,7 @@ const updateCustomer = async (req, res) => {
   }
 };
 
-// DELETE /customers/:id
+
 const deleteCustomer = async (req, res) => {
   try {
     const customer = await Customer.findById(req.params.id);
