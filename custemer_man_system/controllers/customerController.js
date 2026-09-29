@@ -81,7 +81,7 @@ const getCustomerById = async (req, res) => {
   }
 };
 
-// PUT /customers/:id
+
 const updateCustomer = async (req, res) => {
   try {
     const { name, email } = req.body;
