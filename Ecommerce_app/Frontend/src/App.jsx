@@ -81,7 +81,7 @@ export default function App() {
                 <div className="hero-bag"><i className="bi bi-bag-heart-fill"></i></div>
                 <span className="hero-spark spark-one">✦</span><span className="hero-spark spark-two">✳</span>
               </div>
-            < /section>
+              </section>
 
             <section className="shop-section" id="shop-products">
               <div className="section-heading">
