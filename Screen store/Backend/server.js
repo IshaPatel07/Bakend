@@ -4,6 +4,11 @@ import cors from "cors";
 import mongoose from "mongoose";
 import authRoutes from "./routes/auth.js";
 import productRoutes from "./routes/products.js";
+import cartRoutes from "./routes/cartRoutes.js";
+import orderRoutes from "./routes/orderRoutes.js";
+
+app.use("/api/cart", cartRoutes);
+app.use("/api/orders", orderRoutes);
 
 const app = express();
 app.use(cors({ origin: process.env.CLIENT_URL || "http://localhost:5173" }));
