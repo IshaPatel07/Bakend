@@ -7,15 +7,14 @@ Features
 - User Signup and Login with JWT Authentication
 - View and Manage Products
 - Add to Cart, Update Quantity, and Remove Items
-- Place Orders and View Order History
-- MongoDB Atlas Database Integration
-- REST API with MVC Architecture (Models, Controllers, and Routes)
+- MongoDB Database Integration
+- REST API 
 
 Technologies Used
 
 - Frontend: React.js, HTML, CSS, Bootstrap
 - Backend: Node.js, Express.js
-- Database: MongoDB Atlas
+- Database: MongoDB
 - Authentication: JWT and bcrypt
 
 Project Structure
@@ -56,4 +55,4 @@ API Endpoints
 - "/api/cart" — Cart Management
 - "/api/orders" — Order Management
 
-Note: Configure your environment variables before running the application. Online payment integration is not included in the demo checkout.
+Note: Online payment integration is not included in the demo checkout.
