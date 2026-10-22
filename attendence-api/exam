@@ -1,0 +1,63 @@
+Node Js Practical Exam
+Employee Attendance API
+
+🎯 Objective
+
+Build a secure Employee/Faculty Attendance REST API using:
+
+Node.js
+Express.js
+MongoDB
+JWT
+bcryptjs
+dotenv
+Postman
+By the end of this lab, students will learn:
+
+Faculty login
+JWT token generation
+Protected routes using middleware
+Mark attendance
+Get today attendance
+Date-based API filtering
+
+
+
+⏱️ Time Plan (2 Hours)
+
+Hour 1 → Setup + Login API
+
+Project setup
+Install packages
+MongoDB connection
+Faculty model
+Login API
+JWT token
+Hour 2 → Attendance APIs
+
+Attendance model
+Mark attendance API
+Get today attendance API
+Protected routes
+Postman testing
+
+
+
+📁 Folder Structure
+
+attendance-api/
+
+│-- models/
+
+│ ├── Faculty.js
+
+│ └── Attendance.js
+
+│-- middleware/
+
+│ └── auth.js
+
+│-- .env
+
+│-- server.js
+

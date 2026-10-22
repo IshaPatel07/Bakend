@@ -1,0 +1,14 @@
+export const products = [
+  { id: 1, name: "Casual Sneakers", category: "Shoes", price: 1499, oldPrice: 1999, rating: 4.6, image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=700&q=85", tag: "Bestseller" },
+  { id: 2, name: "Everyday Backpack", category: "Accessories", price: 1199, oldPrice: 1599, rating: 4.4, image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=85", tag: "Popular" },
+  { id: 3, name: "Wireless Headphones", category: "Electronics", price: 2499, oldPrice: 3299, rating: 4.7, image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=700&q=85", tag: "Top rated" },
+  { id: 4, name: "Smart Watch", category: "Electronics", price: 3999, oldPrice: 4999, rating: 4.3, image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=85", tag: "New" },
+  { id: 5, name: "Everyday Hoodie", category: "Clothing", price: 1999, oldPrice: 2499, rating: 4.5, image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=700&q=85", tag: "Trending" },
+  { id: 6, name: "Classic T-Shirt", category: "Clothing", price: 799, oldPrice: 999, rating: 4.2, image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=700&q=85", tag: "" },
+  { id: 7, name: "Sport Sneakers", category: "Shoes", price: 2299, oldPrice: 2799, rating: 4.5, image: "https://images.unsplash.com/photo-1460353581641-37b add?auto=format&fit=crop&w=700&q=85".replace("37b add", "37badd"), tag: "Popular" },
+  { id: 8, name: "Blue Denim Jeans", category: "Clothing", price: 1499, oldPrice: 1899, rating: 4.4, image: "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=700&q=85", tag: "" },
+  { id: 9, name: "Signature Perfume", category: "Beauty", price: 4999, oldPrice: 5999, rating: 4.8, image: "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=700&q=85", tag: "Premium" },
+  { id: 10, name: "Classic Baseball Cap", category: "Accessories", price: 699, oldPrice: 899, rating: 4.1, image: "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=700&q=85", tag: "" },
+  { id: 11, name: "Minimal Wallet", category: "Accessories", price: 599, oldPrice: 799, rating: 4.3, image: "https://images.unsplash.com/photo-1627123424574-724758594e93?auto=format&fit=crop&w=700&q=85", tag: "" },
+  { id: 12, name: "Everyday Sunglasses", category: "Accessories", price: 999, oldPrice: 1299, rating: 4.2, image: "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=700&q=85", tag: "Summer pick" }
+];
